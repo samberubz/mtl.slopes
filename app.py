@@ -8,12 +8,71 @@ image1_url = 'https://raw.githubusercontent.com/samberubz/mtl.slopes/main/Captur
 image2_url = 'https://raw.githubusercontent.com/samberubz/mtl.slopes/main/Capture2.png'
 # Display the image in Streamlit
 st.image(image1_url, use_column_width=True)
-
-st.write('**Hey! This is an app designed for all of you skiers! :skier:**\n\n'
-         '_*That includes casual gliders, bunny hill specialists, downhill experts, etc._ :snowman:\n\n'
-         'It gathers ski conditions from three well-known stations located within a 2-hour drive from Montreal '
-         '(making it your perfect single-stop destination before hitting the slopes). :car: \n\n'
-         'Look, I summarized the main points for you below. :snow_capped_mountain:')
+# Custom CSS for dark mode
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+    .stApp {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+    .css-1offfwp {
+        background-color: #121212;
+    }
+    .stMarkdown {
+        color: #e0e0e0;
+    }
+    .stImage {
+        background-color: #121212;
+    }
+    .css-17eq0hr {
+        background-color: #1f1f1f;
+        color: #e0e0e0;
+    }
+    .css-1lcbmhc {
+        background-color: #1f1f1f;
+        color: #e0e0e0;
+    }
+    .css-1w0ym84 {
+        background-color: #1f1f1f;
+        color: #e0e0e0;
+    }
+    .stButton button {
+        background-color: #37474f;
+        color: #e0e0e0;
+    }
+    .stTextInput > div > input {
+        background-color: #1f1f1f;
+        color: #e0e0e0;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+# Custom HTML and CSS for the purple rectangle with rounded corners
+st.markdown(
+    """
+    <div style="
+        background-color: #d4a5ff; 
+        border-radius: 15px; 
+        padding: 20px; 
+        margin: 20px 0;
+        color: #4b0082;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    ">
+        <strong>Hey! This is an app designed for all of you skiers! :skier:</strong><br><br>
+        <em>That includes casual gliders, bunny hill specialists, downhill experts, etc. :snowman:</em><br><br>
+        It gathers ski conditions from three well-known stations located within a 2-hour drive from Montreal 
+        (making it your perfect single-stop destination before hitting the slopes). :car: <br><br>
+        Look, I summarized the main points for you below. :snow_capped_mountain:
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 st.write('©2024, Samuel Bérubé, P.Eng., M.A.Sc.')
 
