@@ -29,8 +29,8 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.write('This app gathers ski conditions from three well-known stations located within a 2-hour drive from Montreal Montreal \n'
-         'making it your perfect single-stop destination before hitting the slopes). 🚗 \n'
+st.write('This app gathers ski conditions from three well-known stations located within a 2-hour drive from Montreal Montreal'
+         '(making it your perfect single-stop destination before hitting the slopes). 🚗 \n\n'
          'Look, I summarized the main points for you below. 🏔️')
 st.write('©2024, Samuel Bérubé, P.Eng., M.A.Sc.')
 
