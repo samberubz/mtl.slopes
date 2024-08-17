@@ -2,11 +2,10 @@ import streamlit as st
 
 # Set the page configuration to wide mode
 st.set_page_config(layout="wide")
-
-
 # URL of the image from your GitHub repository
 image1_url = 'https://raw.githubusercontent.com/samberubz/mtl.slopes/main/Capture1.png'
 image2_url = 'https://raw.githubusercontent.com/samberubz/mtl.slopes/main/Capture2.png'
+
 # Display the image in Streamlit
 st.image(image1_url, use_column_width=True)
 # Custom HTML and CSS for the rectangle with a purple border, transparent background,
@@ -32,8 +31,20 @@ st.markdown(
 st.write('This app gathers ski conditions from three well-known stations located within a 2-hour drive from Montreal \n'
          '(making it your perfect single-stop destination before hitting the slopes). 🚗 \n\n'
          'Look, I summarized the main points for you below. 🏔️')
+# ----------------------------------------------------------------------------------------------------------------------
+st.title('SECTION A - Summary Table')
+# current weather
+# snow : last 24h, 48h, 7d and season (cm)
+# nb slopes (e.g. 102)
+# nb green slopes
+# nb blue slopes
+# nb diamond slopes
+# nb double-diamond slopes
 
 
+st.title('SECTION B - Webcams')
+
+st.title('SECTION C - Forecasts')
 
 # Display the image in Streamlit
 st.image(image2_url, use_column_width=True)
