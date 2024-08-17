@@ -63,7 +63,7 @@ st.markdown(
     <table>
         <thead>
             <tr>
-                <th>Mountain</th>
+                <th></th>
                 <th>Tremblant</th>
                 <th>Mont Orford</th>
                 <th>Sutton</th>
