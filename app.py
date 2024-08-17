@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.write('test ok')
+st.write('test')
 # URL of the image from your GitHub repository
 image_url = 'https://raw.githubusercontent.com/samberubz/mtl.slopes/main/Capture1.png'
 
