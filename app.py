@@ -32,7 +32,7 @@ st.write('This app gathers ski conditions from three well-known stations located
          '(making it your perfect single-stop destination before hitting the slopes). 🚗 \n\n'
          'Look, I summarized the main points for you below. 🏔️')
 # ----------------------------------------------------------------------------------------------------------------------
-st.title('SECTION A - Summary Table')
+st.title('SECTION A - Summary')
 # current weather
 # snow : last 24h, 48h, 7d and season (cm)
 # nb slopes (e.g. 102)
