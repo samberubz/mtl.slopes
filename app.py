@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set the page configuration to wide mode
-st.set_page_config(layout="wide", base="dark")
+st.set_page_config(layout="wide")
 
 
 # URL of the image from your GitHub repository
