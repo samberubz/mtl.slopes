@@ -32,14 +32,101 @@ st.write('This app gathers ski conditions from three well-known stations located
          '(making it your perfect single-stop destination before hitting the slopes). 🚗🏔️')
 # ----------------------------------------------------------------------------------------------------------------------
 st.title('SECTION A - Summary')
-# current weather
-# snow : last 24h, 48h, 7d and season (cm)
-# nb slopes (e.g. 102)
-# nb green slopes
-# nb blue slopes
-# nb diamond slopes
-# nb double-diamond slopes
 
+st.markdown(
+    """
+    <style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #d4a5ff;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: #d4a5ff;
+    }
+    /* Light mode text color */
+    @media (prefers-color-scheme: light) {
+        th, td {
+            color: black;
+        }
+    }
+    /* Dark mode text color */
+    @media (prefers-color-scheme: dark) {
+        th, td {
+            color: white;
+        }
+    }
+    </style>
+    <table>
+        <thead>
+            <tr>
+                <th>Mountain</th>
+                <th>Tremblant</th>
+                <th>Mont Orford</th>
+                <th>Sutton</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Current weather</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Snow (last 24h)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Snow (last 48h)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Snow (last 7d)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Snow (season total)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Nb Slopes</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Opened Slopes (g/b/d/dd)</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    """,
+    unsafe_allow_html=True
+)
+# TABLE HERE WITH THE FOLLOWING LINE NAMES:
+# Mountain
+# Current weather
+# Snow (last 24h)
+# Snow (last 48h)
+# Snow (last 7d)
+# Snow (season total)
+# Nb Slopes (e.g. 102)
+# Opened Slopes (g/b/d/dd)
 
 st.title('SECTION B - Webcams')
 
