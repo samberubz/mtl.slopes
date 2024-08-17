@@ -24,7 +24,7 @@ st.markdown(
     </style>
     <div class="custom-box">
         <strong>Hey! This is an app designed for all of you skiers! 🎿</strong><br><br>
-        <em>_*That includes casual gliders, bunny hill specialists, downhill experts, etc._ ☃️</em><br><br>
+        <em>*That includes casual gliders, bunny hill specialists, downhill experts, etc. ☃️</em><br><br>
         It gathers ski conditions from three well-known stations located within a 2-hour drive from Montreal 
         (making it your perfect single-stop destination before hitting the slopes). 🚗 <br><br>
         Look, I summarized the main points for you below. 🏔️
