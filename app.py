@@ -65,13 +65,13 @@ st.markdown(
             <tr>
                 <th></th>
                 <th>Tremblant</th>
-                <th>Mont Orford</th>
+                <th>Orford</th>
                 <th>Sutton</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Current weather</td>
+                <td>Current Weather</td>
                 <td></td>
                 <td></td>
                 <td></td>
