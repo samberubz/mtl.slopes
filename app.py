@@ -1,7 +1,19 @@
+import components
 import streamlit as st
 
 # Set the page configuration to wide mode
 st.set_page_config(layout="wide")
+# Hide the Streamlit top bar using custom CSS
+hide_streamlit_style = """
+    <style>
+        #MainMenu {visibility: hidden;}
+        header {visibility: hidden;}
+        footer {visibility: hidden;}
+    </style>
+"""
+components.html(hide_streamlit_style, height=0)
+
+
 # URL of the image from your GitHub repository
 image1_url = 'https://raw.githubusercontent.com/samberubz/mtl.slopes/main/Capture1.png'
 image2_url = 'https://raw.githubusercontent.com/samberubz/mtl.slopes/main/Capture2.png'
