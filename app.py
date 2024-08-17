@@ -29,8 +29,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.write('This app gathers ski conditions from three well-known stations located within a 2-hour drive from Montreal \n'
-         '(making it your perfect single-stop destination before hitting the slopes). 🚗 \n\n'
-         'Look, I summarized the main points for you below. 🏔️')
+         '(making it your perfect single-stop destination before hitting the slopes). 🚗🏔️')
 # ----------------------------------------------------------------------------------------------------------------------
 st.title('SECTION A - Summary')
 # current weather
