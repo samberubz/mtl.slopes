@@ -1,58 +1,14 @@
 import streamlit as st
 
 # Set the page configuration to wide mode
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", base="dark")
+
 
 # URL of the image from your GitHub repository
 image1_url = 'https://raw.githubusercontent.com/samberubz/mtl.slopes/main/Capture1.png'
 image2_url = 'https://raw.githubusercontent.com/samberubz/mtl.slopes/main/Capture2.png'
 # Display the image in Streamlit
 st.image(image1_url, use_column_width=True)
-# Custom CSS for dark mode
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: #121212;
-        color: #e0e0e0;
-    }
-    .stApp {
-        background-color: #121212;
-        color: #e0e0e0;
-    }
-    .css-1offfwp {
-        background-color: #121212;
-    }
-    .stMarkdown {
-        color: #e0e0e0;
-    }
-    .stImage {
-        background-color: #121212;
-    }
-    .css-17eq0hr {
-        background-color: #1f1f1f;
-        color: #e0e0e0;
-    }
-    .css-1lcbmhc {
-        background-color: #1f1f1f;
-        color: #e0e0e0;
-    }
-    .css-1w0ym84 {
-        background-color: #1f1f1f;
-        color: #e0e0e0;
-    }
-    .stButton button {
-        background-color: #37474f;
-        color: #e0e0e0;
-    }
-    .stTextInput > div > input {
-        background-color: #1f1f1f;
-        color: #e0e0e0;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 # Custom HTML and CSS for the purple rectangle with rounded corners
 st.markdown(
     """
