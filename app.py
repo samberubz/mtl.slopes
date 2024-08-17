@@ -22,7 +22,7 @@ st.markdown(
     }
     </style>
     <div class="custom-box">
-        <strong>Hey Skiers! This app was designed for you! 🎿</strong><br><br>
+        <strong>Hey Skiers! This app was designed for you! 🎿</strong><br>
         <em>"you" includes: casual gliders, bunny hill specialists, downhill experts, etc. ☃️</em>
     </div>
     """,
