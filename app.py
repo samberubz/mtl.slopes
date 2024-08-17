@@ -14,6 +14,7 @@ st.markdown(
     """
     <div style="
         background-color: #d4a5ff; 
+        background-alpha: 1;
         border-radius: 15px; 
         padding: 20px; 
         margin: 20px 0;
