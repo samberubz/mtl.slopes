@@ -25,14 +25,13 @@ st.markdown(
     <div class="custom-box">
         <strong>Hey! This is an app designed for all of you skiers! 🎿</strong><br><br>
         <em>*That includes casual gliders, bunny hill specialists, downhill experts, etc. ☃️</em><br><br>
-        It gathers ski conditions from three well-known stations located within a 2-hour drive from Montreal 
-        (making it your perfect single-stop destination before hitting the slopes). 🚗 <br><br>
-        Look, I summarized the main points for you below. 🏔️
     </div>
     """,
     unsafe_allow_html=True
 )
-
+st.write('This app gathers ski conditions from three well-known stations located within a 2-hour drive from Montreal Montreal \n'
+         'making it your perfect single-stop destination before hitting the slopes). 🚗 \n'
+         'Look, I summarized the main points for you below. 🏔️')
 st.write('©2024, Samuel Bérubé, P.Eng., M.A.Sc.')
 
 # Display the image in Streamlit
