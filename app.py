@@ -57,7 +57,6 @@ st.markdown(
     /* Dark mode text color */
     @media (prefers-color-scheme: dark) {
         th, td {
-            color: white;
         }
     }
     </style>
@@ -108,7 +107,7 @@ st.markdown(
                 <td></td>
             </tr>
             <tr>
-                <td>Opened Slopes (g/b/d/dd)</td>
+                <td>Open Slopes (g/b/d/dd)</td>
                 <td></td>
                 <td></td>
                 <td></td>
