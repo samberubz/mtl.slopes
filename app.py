@@ -48,17 +48,6 @@ st.markdown(
     th {
         background-color: #d4a5ff;
     }
-    /* Light mode text color */
-    @media (prefers-color-scheme: light) {
-        th, td {
-            color: black;
-        }
-    }
-    /* Dark mode text color */
-    @media (prefers-color-scheme: dark) {
-        th, td {
-        }
-    }
     </style>
     <table>
         <thead>
@@ -101,7 +90,7 @@ st.markdown(
                 <td></td>
             </tr>
             <tr>
-                <td>Nb Slopes</td>
+                <td>Total Slopes</td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -117,15 +106,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-# TABLE HERE WITH THE FOLLOWING LINE NAMES:
-# Mountain
-# Current weather
-# Snow (last 24h)
-# Snow (last 48h)
-# Snow (last 7d)
-# Snow (season total)
-# Nb Slopes (e.g. 102)
-# Opened Slopes (g/b/d/dd)
 
 st.title('SECTION B - Webcams')
 
