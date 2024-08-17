@@ -21,18 +21,6 @@ st.markdown(
         padding: 20px;
         margin: 20px 0;
     }
-    /* Light mode text color */
-    @media (prefers-color-scheme: light) {
-        .custom-box {
-            color: black;
-        }
-    }
-    /* Dark mode text color */
-    @media (prefers-color-scheme: dark) {
-        .custom-box {
-            color: white;
-        }
-    }
     </style>
     <div class="custom-box">
         <strong>Hey! This is an app designed for all of you skiers! 🎿</strong><br><br>
